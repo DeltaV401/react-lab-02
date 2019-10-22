@@ -4,24 +4,29 @@ exports[`counter tests renders consistently 1`] = `
 <section
   className="counter"
 >
-  <a
-    className="down clicker"
-    href="#"
-    onClick={[Function]}
-  >
-    -
-  </a>
   <span
     className="count "
   >
     0
   </span>
-  <a
+  <br />
+  <button
+    className="down clicker"
+    href="#"
+    onClick={[Function]}
+  >
+    You've been naughty. 
+    <br />
+    One less present.
+  </button>
+  <button
     className="up clicker"
     href="#"
     onClick={[Function]}
   >
-    +
-  </a>
+    You've followed the rules. 
+    <br />
+    One more present.
+  </button>
 </section>
 `;

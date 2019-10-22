@@ -26,7 +26,7 @@ describe('counter tests', () => {
     let app = shallow(<Counter />);
     let upButton = app.find('button.up');
     expect(upButton.exists()).toBe(true);
-    expect(upButton.text()).toBe('+');
+    expect(upButton.text()).toBe('You\'ve followed the rules. One more present.');
 
     // Act
     upButton.simulate('click');
@@ -40,7 +40,7 @@ describe('counter tests', () => {
     let app = shallow(<Counter />);
     let downButton = app.find('button.down');
     expect(downButton.exists()).toBe(true);
-    expect(downButton.text()).toBe('-');
+    expect(downButton.text()).toBe('You\'ve been naughty. One less present.');
 
     // Act
     downButton.simulate('click');
