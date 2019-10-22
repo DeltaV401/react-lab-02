@@ -24,7 +24,7 @@ describe('counter tests', () => {
   it('can increment upwards', () => {
     // Arrange
     let app = shallow(<Counter />);
-    let upButton = app.find('a.up');
+    let upButton = app.find('button.up');
     expect(upButton.exists()).toBe(true);
     expect(upButton.text()).toBe('+');
 
@@ -38,7 +38,7 @@ describe('counter tests', () => {
   it('can decrement downwards', () => {
     // Arrange
     let app = shallow(<Counter />);
-    let downButton = app.find('a.down');
+    let downButton = app.find('button.down');
     expect(downButton.exists()).toBe(true);
     expect(downButton.text()).toBe('-');
 
