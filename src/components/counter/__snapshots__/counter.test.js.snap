@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`counter tests renders consistently 1`] = `
+<section
+  className="counter"
+>
+  <span
+    className="count "
+  >
+    0
+  </span>
+  <br />
+  <button
+    className="down clicker"
+    href="#"
+    onClick={[Function]}
+  >
+    You've been naughty. 
+    <br />
+    One less present.
+  </button>
+  <button
+    className="up clicker"
+    href="#"
+    onClick={[Function]}
+  >
+    You've followed the rules. 
+    <br />
+    One more present.
+  </button>
+</section>
+`;

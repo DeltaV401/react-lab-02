@@ -1,8 +1,8 @@
-# LAB - 
+# React Lab 02
 
-## Project Name
+## React Testing and Deployment
 
-### Author: Student/Group Name
+### Jon Struve
 
 ### Links and Resources
 * [Submission PR](https://github.com/DeltaV401/react-lab-02/pull/1)

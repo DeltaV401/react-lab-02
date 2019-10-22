@@ -1,0 +1,77 @@
+@import './variables';
+
+body {
+  color: $silver;
+  font-size: 20px;
+  text-align: center;
+  font-family: $fontStack;
+  background-color: $gingerbread;
+}
+
+header {
+  h1 {
+    font-size: 4rem;
+  }
+  padding: 15px;
+  background-color: $gingerHover;
+  box-shadow: 0px 0px 15px black;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+.counter {
+  font-size: 2rem;
+  margin-top: 45px;
+}
+
+button {
+  color: $borderColor;
+  border-radius: $radius;
+  border: 1px solid $borderColor;
+  box-shadow: 1px 2px 2px black;
+}
+
+button:hover {
+  background-color: $borderColor;
+  color: $silver;
+  box-shadow: 2px 3px 5px black;
+}
+
+.clicker {
+  width: 200px;
+  margin: 10px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.down {
+  background-color: $red;
+  color: $green;
+}
+
+.up {
+  background-color: $green;
+  color: $red;
+}
+
+.down:hover {
+  background-color: $redHover;
+  color: $greenHover;
+}
+
+.up:hover {
+  background-color: $greenHover;
+  color: $redHover;
+}
+
+.positive {
+  color: $greenHover;
+}
+
+.negative {
+  color: $redHover;
+}
