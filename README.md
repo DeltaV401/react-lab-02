@@ -6,9 +6,9 @@
 
 ### Links and Resources
 * [Submission PR](https://github.com/DeltaV401/react-lab-02/pull/1)
-* [Travis](http://xyz.com)
-* [AWS Front-End](http://xyz.com) (when applicable)
-* [Netlify Front-End](http://xyz.com)
+* [Travis](https://travis-ci.com/DeltaV401/react-lab-02/builds/133075908)
+* [AWS Front-End](http://react-lab-02.s3-website.us-east-2.amazonaws.com/)
+* [Netlify Front-End](https://silly-aryabhata-15a8f1.netlify.com/)
 
 #### Running the app
 * `npm start`
