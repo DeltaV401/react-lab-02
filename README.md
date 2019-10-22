@@ -5,10 +5,10 @@
 ### Jon Struve
 
 ### Links and Resources
-* [Submission PR](http://xyz.com)
-* [Travis](http://xyz.com)
-* [AWS Front-End](http://xyz.com)
-* [Netlify Front-End](http://xyz.com)
+* [Submission PR](https://github.com/DeltaV401/react-lab-02/pull/1)
+* [Travis](https://travis-ci.com/DeltaV401/react-lab-02/builds/133075908)
+* [AWS Front-End](http://react-lab-02.s3-website.us-east-2.amazonaws.com/)
+* [Netlify Front-End](https://silly-aryabhata-15a8f1.netlify.com/)
 
 #### Running the app
 * `npm start`
@@ -17,4 +17,4 @@
 * How do you run tests?
   * npm test
 * What assertions were made?
-  * Tests made to make sure that the page is rendering and setting text properly.
+  * Tests were made that expect the page to load properly, the original stay consistent, and I can change things.
